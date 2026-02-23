@@ -37,6 +37,10 @@ Built by students and members of the Harvard, MIT, and Sundai.Club communities.
 </p>
 
 <p align="center">
+  <a href="https://railway.com/deploy/8Q-7oo?referralCode=gGZ7iz&utm_medium=integration&utm_source=template&utm_campaign=generic"><img src="https://railway.com/button.svg" alt="Deploy on Railway" /></a>
+</p>
+
+<p align="center">
   <strong>Quick Routes:</strong>
   <a href="docs/reference/README.md">Reference</a> ·
   <a href="docs/operations/README.md">Operations</a> ·
