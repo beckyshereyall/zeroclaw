@@ -11,7 +11,7 @@
     "envVars": {
       "ANTHROPIC_OAUTH_TOKEN": {
         "description": "Anthropic setup token (run `claude setup-token` in Claude Code to generate one)",
-        "required": true
+        "required": false
       },
       "PROVIDER": {
         "description": "LLM provider name (anthropic, openrouter, openai, gemini, groq, mistral, deepseek, ollama, etc.)",
