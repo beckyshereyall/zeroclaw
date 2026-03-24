@@ -668,7 +668,7 @@ pub async fn run_gateway(host: &str, port: u16, config: Config) -> Result<()> {
             Duration::from_secs(REQUEST_TIMEOUT_SECS),
         ))
         // ── SPA fallback: non-API GET requests serve index.html ──
-        .fallback(get(static_files::handle_spa_fallback));
+        .fallback(get(static_files::handle_spa_fallback))
     let app = Router::new()
 // Missing something here?
 .route("/health", get(health_check))
